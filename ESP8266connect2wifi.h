@@ -3,10 +3,6 @@
 
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
-//#include <ESP8266WebServer.h>
-#include <NTPClient.h>
-#include <WiFiUdp.h>
-#include <TimeLib.h>
 
 #include <ESPAsyncTCP.h>
 #include <ESPAsyncWebServer.h>
@@ -54,8 +50,6 @@ int enable_num4 = 0;
 
 int timeout = 0;
 bool is_connected = true;
-
-WiFiUDP ntpUDP;
 
 int status = WL_IDLE_STATUS;
 
